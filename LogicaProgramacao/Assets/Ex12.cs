@@ -2,10 +2,17 @@ using UnityEngine;
 
 public class Ex12 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int pontosBase;
+    public int inimigosDerrotados;
+    public int bonus;
     void Start()
     {
-        
+        print("pontos:" + pontosBase);
+        print("inimigos derrotados :" + inimigosDerrotados);
+        print("bonus: " + bonus);
+        int pontuacaoFinal = (pontosBase * inimigosDerrotados ) + bonus;
+        print("pontuação final :" + pontuacaoFinal);
+
     }
 
     // Update is called once per frame
