@@ -225,6 +225,7 @@ GameObject:
   - component: {fileID: 1033495866}
   - component: {fileID: 1033495867}
   - component: {fileID: 1033495868}
+  - component: {fileID: 1033495869}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -306,13 +307,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033495862}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f9d655fb1c9ea9d4b86873c5b2cc4b98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lista3Ex4
   num1: 3
   num2: 5
+--- !u!114 &1033495869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1033495862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec1c4f80aa65eef49b2b43d69d20ee4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::desafodejogo
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
